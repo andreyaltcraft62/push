@@ -1,25 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="https://pxl.andrey-sarychev.dev.altkraft.com/ak_container.js?id=MXwxMg.." ></script>
-</head>
-<body>
-    <button id="init_sub">Подписаться на уведомления</button>
-<script>
+		<html lang="en">
+		<head>
+		    <meta charset="UTF-8">
+		    <title>Title</title>
+		    <script src="https://pxl.andrey-sarychev.dev.altkraft.com/ak_container.js?id=MXwxMg.."" ></script>
+		</head>
+		<body>
+		    <button id="init_sub">Подписаться на уведомления</button>
+		<script>
 
-    document.getElementById('init_sub').addEventListener('click', function() { // По клику на кнопку..
-    try {
-        var akPush = new AKPush();
-        
-        akPush.initSubscription({ email: '123456test@em.com' }) // ..показать форму подписки
-        console.log('profile added');
-        }
-    catch (e) {
-        console.log(e); // Или записать ошибку в консоль браузера
-        }
-    });
-</script>
-</body>
-</html>
+		    document.getElementById('init_sub').addEventListener('click', function() { // По клику на кнопку..
+		    try {
+			var akPush = new AKPush();
+			
+			akPush.initSubscription({ email: 'alex123@ru.com' }) // ..показать форму подписки
+			}
+		    catch (e) {
+			console.log(e); // Или записать ошибку в консоль браузера
+			}
+		    });
+		</script>
+		</body>
+		</html>
